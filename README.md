@@ -11,6 +11,13 @@ Below steps are given under setup to run this sample Django application. This ap
 * PATCH/{id} - http://localhost:port/users/{id}
 * DELETE/{id} - http://localhost:port/users/{id}
 
+Also below added operations can be performed on users data
+
+* Filtering  - http://localhost:port/users?{field_name}={value}
+* Ordering - http://localhost:port/users?ordering={field_name}
+* Searching - http://localhost:port/users?search={string}
+
+
 ## Setup
 
 The first thing to do is to clone the repository and install the dependencies:
