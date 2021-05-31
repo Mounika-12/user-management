@@ -16,7 +16,7 @@ Also below added operations can be performed on users data
 * Filtering  - http://localhost:port/users?{field_name}={value}
 * Ordering - http://localhost:port/users?ordering={field_name}
 * Searching - http://localhost:port/users?search={string}
-
+* pagination - http://localhoost:port/users?limit={page_size}&offset={page}
 
 ## Setup
 
